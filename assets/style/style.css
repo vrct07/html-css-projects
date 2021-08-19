@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&display=swap');
+
+/* Variable */
+:root {
+  --font-primary: 'Poppins', sans-serif;
+  --font-secundary: 'Inter', sans-serif;
+  --color-1: #FF4040;  
+}
+
+/* Global configs */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Page configs */
+
+body {
+    background-color: #FDFFE7;
+}
+
+header {
+    margin-top: 20px;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+header h3 {
+    font-family: var(--font-primary);
+    font-size: 26px;
+    font-weight: bold;
+    color:var(--color-1);
+    display: inline;
+    padding: 40px 32px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    background-position: right;
+    display: inline;
+    padding-left: -40px;
+}
+
+.title {
+    font-family: var(--font-secundary);
+    font-size: bold;
+    color: var(--color-1);
+    text-align: center;
+}
