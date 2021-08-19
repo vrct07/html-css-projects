@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&display=swap');
 
 /* Variable */
@@ -42,8 +42,7 @@ header h3 {
     font-weight: bold;
     color:var(--color-1);
     display: inline;
-    padding-left: 0;
-    margin-top: -10px;
+    margin-top: 30px;
     margin-right: 300px;
     display: flex;
 
@@ -60,8 +59,9 @@ header img {
 }
 
 .title {
-    font-family: var(--font-secundary);
-    font-size: bold;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-weight: semi-bold;
     color: var(--color-1);
-    text-align: center;
+    text-align: left;
 }
