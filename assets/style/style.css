@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap');
 
 /* Variable */
 :root {
@@ -27,7 +27,7 @@ body {
 }
 
 header {
-    margin-top: 20px;
+    margin-top: 10px;
     min-height: 150px;
     text-align: left;
     padding-top: 50px;
@@ -38,12 +38,12 @@ header {
 
 header h3 {
     font-family: var(--font-primary);
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     color:var(--color-1);
     display: inline;
     margin-top: 30px;
-    margin-right: 300px;
+    margin-right: 190px;
     display: flex;
 
 }
@@ -61,7 +61,96 @@ header img {
 .title {
     font-family: var(--font-primary);
     font-size: 20px;
-    font-weight: semi-bold;
+    font-weight: 00;
+    line-height: 1.3;
     color: var(--color-1);
     text-align: left;
+    margin-top: 40px;
+}
+
+.descrition {
+    font-family: var(--font-primary);
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-1);
+    margin-top: 20px;
+    margin-bottom: 90px;
+
+}
+
+.instagram-box img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.subtitle {
+    font-family: var(--font-secundary);
+    color: var(--color-1);
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+.subtitle > p {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article {
+    font-family: var(--font-primary);
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--color-1);
+    margin-bottom: 90px;
+}
+
+.spotify-btn a p {
+    background-color: var(--color-1);
+    font-family: var(--font-primary);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-line: none;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.116);
+
+}
+
+#spotify {
+    text-decoration-line: none;
+}
+
+footer {
+    font-family: var(--font-primary);
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--color-1);
+    margin-bottom: 90px;
+}
+
+footer a {
+    text-decoration-line: none;
+}
+
+footer span {
+    font-family: var(--font-secundary);
+    font-weight: bold;
+    color: var(--color-1);
+}
+
+footer span:hover {
+    font-family: var(--font-secundary);
+    font-weight: bold;
+    color: var(--color-1);
+    text-decoration-line: underline;
+}
+
+.country {
+    font-size: 25px;
 }
