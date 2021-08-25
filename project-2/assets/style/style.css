@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
+
+/* Variable */
+:root {
+    --font-primary: 'Nunito', sans-serif;
+    --color1: #F98D4F;
+    --color2: #FF6600;
+    --color3: #1D1C1C;
+    --color4: #323232;
+    --color5: #1D1D1D;
+}
