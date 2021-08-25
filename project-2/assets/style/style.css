@@ -12,3 +12,10 @@
     --color4: #323232;
     --color5: #1D1D1D;
 }
+
+/* Global configs */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
